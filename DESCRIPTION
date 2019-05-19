@@ -1,0 +1,16 @@
+Package: VaRisk
+Type: Package
+Title: VaR (Value at Risk) of your Portfolio
+Version: 1.1
+Date: 2019-05-10
+Author: c(person("Kevin","Moroni",email = "moronk@usi.ch",role = c("aut","trl", "cre")),
+	  person("Stefano","Ferrero",email = "ferres@usi.ch",role = c("aut","trl", "cre")),
+	  person("Nicola","Pucar",email = "pucarn@usi.ch",role = c("aut","trl", "cre")))
+Maintainer: Kevin Moroni <moronk@usi.ch>
+Description: Downloads of data from yahoo finance (or convert your data) and calculation of the VaR of a given portfolio. NOTE: You have to install the package "quantmod" to use this package
+Depends: R (>= 3.5.1)
+Imports: quantmod
+License: Unlimited
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 6.1.1
